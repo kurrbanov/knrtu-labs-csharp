@@ -85,6 +85,10 @@ namespace Lab1
             // 7 variant
             double y6 = a * x < b ? Pow(E, -2 * x) + Pow(Pow(a, 4) + x, (double) 1 / 4) : Sin(x) - b * b;
             Console.WriteLine(y6);
+            
+            // 10 variant
+            double y9 = 3 * a > 2 * b ? Log(x * x) - Asin(x / 10) : Atan(2 * x - 0.6) + 2 * Log(x);
+            Console.WriteLine(y9);
         }
         
         /// /////////////////////////////////////////////////////////////////
