@@ -44,7 +44,7 @@ namespace Lab2
                     Console.WriteLine(i);
             }
             
-            // variant 3 
+            // variant 3  DON'T touch them please.
             int N = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 1; i <= N; i++)
@@ -54,6 +54,30 @@ namespace Lab2
 
                 if (check % Convert.ToInt64(Pow(10, lenNum)) == 0)
                     Console.WriteLine(i);
+            }
+            
+            // variant 4, 5 - very easy
+            
+            // variant 6
+            for (int i = 0; i < 10; i++)
+                for (int j = 0; j < 10; j++)
+                {
+                    int num = Convert.ToInt32("42" + Convert.ToString(i) + Convert.ToString(j) + "4");
+                    
+                    if (num % 72 == 0) Console.WriteLine(num);
+                }
+
+            // variant 7, 8, 9 - easy
+            
+            //variant 10
+            for (int i = 100; i < 1000; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    int sumNum = i % 10 + i / 100 + ((i / 10) % 10);
+
+                    if (sumNum > sumNum / 3.0) Console.WriteLine(i);
+                }
             }
         }
     }
