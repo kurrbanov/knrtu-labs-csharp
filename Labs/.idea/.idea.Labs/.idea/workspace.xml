@@ -13,6 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd81a081-fd5f-4dcf-b362-36155fa614f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +22,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/user/Documents/GitHub/knrtu-labs-csharp/Labs/Lab1/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/user/Documents/GitHub/knrtu-labs-csharp/Labs/Lab1/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/user/Documents/GitHub/knrtu-labs-csharp/Labs/Lab1/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/user/Documents/GitHub/knrtu-labs-csharp/Labs/Lab1/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/user/Documents/GitHub/knrtu-labs-csharp/Labs/Lab1/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -79,13 +73,14 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cd81a081-fd5f-4dcf-b362-36155fa614f1" name="Default Changelist" comment="" />
-      <changelist id="" name="New changelist" comment="" />
       <created>1599409461998</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599409461998</updated>
       <workItem from="1599409469012" duration="5401000" />
       <workItem from="1599415116219" duration="3730000" />
+      <workItem from="1599419560508" duration="243000" />
+      <workItem from="1599493961538" duration="1606000" />
     </task>
     <task id="LOCAL-00001" summary="add the 10 variant">
       <created>1599418630343</created>
@@ -94,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599418630343</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="last update of xml">
+      <created>1599419695564</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599419695564</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,17 +157,18 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="2000" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add the 10 variant" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the 10 variant" />
+    <MESSAGE value="last update of xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="last update of xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Deployment" timestamp="1599414364845">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="76" key="#Deployment/0.0.1536.834@0.0.1536.834" timestamp="1599414364845" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1599418629632">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1599419694871">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1599418629632" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1599419694871" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1599414875543">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -198,10 +201,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="VCS.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1599418918131" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1599418635599">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1599419720788">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1599418635599" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1599419720788" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599418352667">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

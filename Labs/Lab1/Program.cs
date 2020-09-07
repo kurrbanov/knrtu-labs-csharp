@@ -82,9 +82,25 @@ namespace Lab1
             double y3 = Abs(a * a - b * b) > b ? Pow(a, x / 2) - Pow(E, Cos(x)) : Tan(4 * x) - a;
             Console.WriteLine(y3);
             
+            // 5 variant
+            double y4 = Abs(a - b * b) > b ? Log(Abs(a * x - b)) - Pow(E, Tan(x)) : Tan(4 * x) - a;
+            Console.WriteLine(y4);
+            
+            // 6 variant
+            double y5 = 3 * a - b > 0 ? 2 * Log(x) - Pow(E, (a * x - b) / 10) : Asin(x / 10);
+            Console.WriteLine(y5);
+            
             // 7 variant
             double y6 = a * x < b ? Pow(E, -2 * x) + Pow(Pow(a, 4) + x, (double) 1 / 4) : Sin(x) - b * b;
             Console.WriteLine(y6);
+            
+            // 8 variant
+            double y7 = a * b < 2 * x ? b * Pow(E, -3 * x) + Sin(a) * Sin(a) : Pow(x, 3) / a - x / b;
+            Console.WriteLine(y7);
+
+            // 9 variant
+            double y8 = Sqrt(a + 3 * b) < 3 * x ? a * x * x + Tan(4 * x) : Sqrt(a + Sin(Abs(x)));
+            Console.WriteLine(y8);
             
             // 10 variant
             double y9 = 3 * a > 2 * b ? Log(x * x) - Asin(x / 10) : Atan(2 * x - 0.6) + 2 * Log(x);
