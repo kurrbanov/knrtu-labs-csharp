@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Math;
 
 namespace Lab2
 {
@@ -44,8 +45,16 @@ namespace Lab2
             }
             
             // variant 3 
-            // comming soon
-            
+            int N = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i <= N; i++)
+            {
+                long lenNum = Convert.ToString(i).Length;
+                long check = (i * i) - i;
+
+                if (check % Convert.ToInt64(Pow(10, lenNum)) == 0)
+                    Console.WriteLine(i);
+            }
         }
     }
 }
