@@ -1,5 +1,5 @@
 ﻿using System;
-using static System.Math;
+using static System.Math; // DON'T remember include this library
 
 namespace Lab1
 {
@@ -16,7 +16,7 @@ namespace Lab1
         
         static void Task1()
         {
-            double a = Convert.ToDouble(Console.ReadLine());
+            double a = Convert.ToDouble(Console.ReadLine()); // common input for first task
          
             // 1 variant
             double z1 = Cos(a) + Sin(a) + Cos(3 * a) + Sin(3 * a);
@@ -62,6 +62,7 @@ namespace Lab1
         
         static void Task2()
         {
+            // common input for second task
             double a = Convert.ToDouble(Console.ReadLine());
             double b = Convert.ToDouble(Console.ReadLine());
             double x = Convert.ToDouble(Console.ReadLine());
@@ -146,6 +147,8 @@ namespace Lab1
                 default: Console.WriteLine("LOL");
                     break;
             }
+            /* Если нужна идея решения - скажите это. Без неё не советую сабмитить код*/
+            
         }
      } 
 }
