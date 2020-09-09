@@ -10,6 +10,45 @@ namespace Lab2
             Task2();
         }
 
+        static void Task1()
+        {
+            // 8 variant
+            static void Task1()
+            {
+                double dx = Convert.ToDouble(Console.ReadLine());
+            
+                double x = -9;
+
+                while (x <= 7)
+                {
+                    if (x >= -9 && x <= -7)
+                    {
+                        Console.Write("y " + Convert.ToString(x) + ": ");
+                        Console.WriteLine(0);
+                    } else if (x > -7 && x <= -3)
+                    {
+                        Console.Write("y " + Convert.ToString(x) + ": ");
+                        Console.WriteLine(x + 7);
+                    } else if (x >= -2 && x <= 2)
+                    {
+                        Console.Write("y " + Convert.ToString(x) + ": ");
+                        Console.WriteLine(x * x);
+                    } else if (x >= 2 && x <= 4)
+                    {
+                        Console.Write("y " + Convert.ToString(x) + ": ");
+                        Console.WriteLine(-2 * x + 8);
+                    } else if (x >= 4 && x <= 7)
+                    {
+                        Console.Write("y " + Convert.ToString(x) + ": ");
+                        Console.WriteLine(0);
+                    }
+                    x += dx;
+                }
+
+            }
+        }
+
+
         static void Task2()
         {
             // variant 1
@@ -67,7 +106,13 @@ namespace Lab2
                     if (num % 72 == 0) Console.WriteLine(num);
                 }
 
-            // variant 7, 8, 9 - easy
+            // variant 7, 9 - easy
+            
+            // variant 8
+            for (int i = 100; i <= 999; i++)
+            {
+                if (i % 11 == 0 && (i % 10 == 3 || i / 100 == 3 || (i / 10) % 10 == 3)) Console.WriteLine(i);
+            }
             
             //variant 10
             for (int i = 100; i < 1000; i++)
