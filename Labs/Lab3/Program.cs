@@ -6,15 +6,18 @@ namespace laba3
     {
         static void Main(string[] args)
         {
-            Task3_8();
+
         }
+        
+        
+        
         static void Task1_2()
         {
+            int fir = 0, last = 0; 
             int n = Convert.ToInt32(Console.ReadLine());
             double[] arr = new double[n];
             double sum = 0;
-            int fir = 0;
-            int last = 0;
+
             for (int i = 0; i < arr.Length; i++)
             {
                 arr[i] = Convert.ToDouble(Console.ReadLine());
@@ -39,17 +42,23 @@ namespace laba3
                     last = i;
                 }
             }
+            
             sum = 0;
+            
             for (int i = fir; i <= last; i++)
             {
                 sum += arr[i];
             }
             Console.WriteLine("Сумма элементов между первым отрицательным и последним отрицательным: " + sum);
+            
             for(int i = 0; i < arr.Length; i++)
             {
                 Console.WriteLine(arr[i]);
             }
         }
+        
+        
+        
         static void Task1_8()
         {
             // 8 variant
@@ -80,11 +89,15 @@ namespace laba3
             Console.WriteLine(sumArr);
         }
         
+        
+        
+        
         static void Task2_2()
         {
             int m;
             m = Convert.ToInt32(Console.ReadLine());
             int[,] arra = new int[m, m];
+            
             for(int i = 0; i < m; i++)
             {
                 for (int j = 0; j < m; j++)
@@ -114,30 +127,33 @@ namespace laba3
                     Console.WriteLine(mul);
                 }
             }
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < m; i++)
             {
-                for (int j = 0; j < n; j++)
+                for (int j = 0; j < m; j++)
                 {
                     Console.Write(arra[i, j] + " ");
                 }
                 Console.WriteLine();
             }
             int t = 0;
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < m; i++)
             {
                 t = arra[i, 0];
                 arra[i, 0] = arra[i, 1];
                 arra[i, 1] = t;
             }
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < m; i++)
             {
-                for (int j = 0; j < n; j++)
+                for (int j = 0; j < m; j++)
                 {
                     Console.Write(arra[i, j] + " ");
                 }
                 Console.WriteLine();
             }
         }
+        
+        
+        
         static void Task2_8()
         {
             // variant 8
@@ -206,9 +222,11 @@ namespace laba3
             Console.WriteLine();
         }
 
-        static void Task3_8()
+        
+        
+        
+        static void Task3_All()
         {
-            // variant 8
             int[][] arr = new int[5][];
 
             arr[0] = new int[5];
