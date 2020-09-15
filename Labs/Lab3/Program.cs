@@ -11,6 +11,7 @@ namespace laba3
 
         static void Task1()
         {
+            // 8 variant
             int c, n, ans = 0;
             n = Convert.ToInt32(Console.ReadLine());
             c = Convert.ToInt32(Console.ReadLine());
@@ -40,11 +41,13 @@ namespace laba3
 
         static void Task2()
         {
+            // variant 8
             int n;
             n = Convert.ToInt32(Console.ReadLine());
 
-            int[,] arr = new int[n, n];
+            int[,] arr = new int[n, n]; // matrix
             
+            // read matrix
             for (int i = 0; i < n; i++)
             {
                 string[] s = Console.ReadLine().Split(' ');
@@ -106,7 +109,7 @@ namespace laba3
 
         static void Task3()
         {
-            
+            // variant 8
             int[][] arr = new int[5][];
 
             arr[0] = new int[5];
@@ -117,7 +120,7 @@ namespace laba3
 
             for (int i = 0; i < 5; i++)
             {
-                Random rand = new Random(); 
+                Random rand = new Random(); // class Random 
                 for (int j = 0; j < arr[i].Length; j++)
                 {
                     arr[i][j] = rand.Next(-500, 500);
