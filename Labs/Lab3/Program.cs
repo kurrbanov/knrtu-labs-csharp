@@ -22,11 +22,13 @@ namespace laba3
             {
                 arr[i] = Convert.ToDouble(Console.ReadLine());
             }
-            for (int i = 1; i < arr.Length - 1; i += 2)
+            
+            for (int i = 0; i < arr.Length; i += 2)
             {
                 sum += arr[i];
             }
             Console.WriteLine("Сумма элементов с нечётными номерами: " + sum);
+            
             for (int i = 0; i < arr.Length; i++)
             {
                 if (arr[i] < 0)
@@ -45,7 +47,7 @@ namespace laba3
             
             sum = 0;
             
-            for (int i = fir; i <= last; i++)
+            for (int i = fir + 1; i < last; i++)
             {
                 sum += arr[i];
             }
@@ -94,8 +96,7 @@ namespace laba3
         
         static void Task2_2()
         {
-            int m;
-            m = Convert.ToInt32(Console.ReadLine());
+            int m = Convert.ToInt32(Console.ReadLine());
             int[,] arra = new int[m, m];
             
             for(int i = 0; i < m; i++)
@@ -107,10 +108,11 @@ namespace laba3
             }
             int mul;
             bool meow = true;
+            
             for (int i = 0; i < m; i++)
             {
                 mul = arra[i, 0];
-                for (int j = 0; j < m; j++)
+                for (int j = 1; j < m; j++)
                 {
                     if (arra[i, j] > 0)
                     {
@@ -122,7 +124,7 @@ namespace laba3
                         break;
                     }
                 }
-                if (meow == true) 
+                if (meow) 
                 {
                     Console.WriteLine(mul);
                 }
