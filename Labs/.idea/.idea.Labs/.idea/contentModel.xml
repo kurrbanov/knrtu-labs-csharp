@@ -52,6 +52,18 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
+      <e p="Laba5" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Laba5.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Laba5.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="Labs.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
