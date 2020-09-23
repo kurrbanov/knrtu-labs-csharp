@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\knrtu-labs-csharp\\Labs\\Laba5\\Laba5.csproj",
-      "projectName": "Laba5",
-      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\knrtu-labs-csharp\\Labs\\Laba5\\Laba5.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\knrtu-labs-csharp\\Labs\\Lab5\\Lab5.csproj",
+      "projectName": "Lab5",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\knrtu-labs-csharp\\Labs\\Lab5\\Lab5.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\knrtu-labs-csharp\\Labs\\Laba5\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\knrtu-labs-csharp\\Labs\\Lab5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

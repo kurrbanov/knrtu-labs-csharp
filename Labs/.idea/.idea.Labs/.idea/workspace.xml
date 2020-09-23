@@ -6,6 +6,7 @@
     <projectFile>Lab3/Lab3.csproj</projectFile>
     <projectFile>Lab4/Lab4.csproj</projectFile>
     <projectFile>Laba5/Laba5.csproj</projectFile>
+    <projectFile>Lab6/Lab6.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -31,7 +32,22 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd81a081-fd5f-4dcf-b362-36155fa614f1" name="Default Changelist" comment="" />
+    <list default="true" id="cd81a081-fd5f-4dcf-b362-36155fa614f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Laba5/Laba5.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/Lab5.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laba5/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laba5/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laba5/obj/Debug/netcoreapp3.1/Laba5.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Debug/netcoreapp3.1/Laba5.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laba5/obj/Debug/netcoreapp3.1/Laba5.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Debug/netcoreapp3.1/Laba5.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laba5/obj/Debug/netcoreapp3.1/Laba5.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Debug/netcoreapp3.1/Laba5.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laba5/obj/Laba5.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Laba5.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laba5/obj/Laba5.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Laba5.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laba5/obj/Laba5.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Laba5.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laba5/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laba5/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laba5/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laba5/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Labs.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,8 +59,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Lab4/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab2/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab3/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Laba5/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab6/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,6 +72,7 @@
         <option value="$PROJECT_DIR$/Lab3/Program.cs" />
         <option value="$PROJECT_DIR$/Lab4/Program.cs" />
         <option value="$PROJECT_DIR$/Laba5/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab6/Program.cs" />
       </list>
     </option>
   </component>
@@ -177,7 +196,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Laba5/Laba5.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab5/Lab5.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -209,6 +228,7 @@
       <workItem from="1600196538908" duration="3288000" />
       <workItem from="1600805018190" duration="98000" />
       <workItem from="1600805146416" duration="105000" />
+      <workItem from="1600897423243" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="add the 10 variant">
       <created>1599418630343</created>
@@ -322,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600805194790</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="New Lab6">
+      <created>1600897522190</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600897522190</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +387,19 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -385,7 +424,8 @@
     <MESSAGE value="bag fixed" />
     <MESSAGE value="New Lab4" />
     <MESSAGE value="New Lab5" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Lab5" />
+    <MESSAGE value="New Lab6" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Lab6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Deployment" timestamp="1599414364845">
