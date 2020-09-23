@@ -99,5 +99,62 @@ namespace laba4
                 Console.Write($"{i} ");
             }
         }
+        //2 variant
+        public static void Task1()
+        {
+            List<int> list = new List<int>(5);
+            for (int i = 0; i < 5; i++)
+            {
+                list.Add(i);
+            }
+            Write(list);
+            list.Add(list.Count);
+            Write(list);
+            List<int> secList = new List<int>(3);
+            for (int i = 0; i < 3; i++)
+            {
+                secList.Add(i);
+            }
+            Write(secList);
+            list.InsertRange(3, secList);
+            Write(list);
+            Console.WriteLine(list.Count);
+            int min = list[0];
+            int max = list[0];
+            foreach (int el in list)
+            {
+                if (el < min)
+                {
+                    min = el;
+                }
+
+                if (el > max)
+                {
+                    max = el;
+                }
+            }
+
+            Console.WriteLine("Минимальный " + min);
+            Console.WriteLine("Максимальный " + max);
+            int[] arr = secList.ToArray();
+            foreach (int el in arr)
+            {
+                Console.Write(el + " ");
+            }
+            secList.RemoveAt(2);
+            Write(secList);
+            list.RemoveAt(list.IndexOf(max));
+            Write(list);
+        }
+
+        static void Write(List<int> list)
+        {
+            foreach (int el in list)
+            {
+                Console.Write(el + " ");
+            }
+
+            Console.WriteLine();
+        }
     }
 }
