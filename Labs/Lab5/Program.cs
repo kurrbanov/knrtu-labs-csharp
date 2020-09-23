@@ -100,6 +100,15 @@ namespace laba5
             }
             Console.WriteLine();
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
         //2 variant
         public static void Task1_2()
         {
