@@ -15,6 +15,10 @@
     <expand>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
       <path>
@@ -28,25 +32,13 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd81a081-fd5f-4dcf-b362-36155fa614f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Laba5/Laba5.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/Lab5.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laba5/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laba5/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laba5/obj/Debug/netcoreapp3.1/Laba5.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Debug/netcoreapp3.1/Laba5.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laba5/obj/Debug/netcoreapp3.1/Laba5.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Debug/netcoreapp3.1/Laba5.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laba5/obj/Debug/netcoreapp3.1/Laba5.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Debug/netcoreapp3.1/Laba5.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laba5/obj/Laba5.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Laba5.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laba5/obj/Laba5.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Laba5.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laba5/obj/Laba5.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/Laba5.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laba5/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laba5/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laba5/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laba5/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Labs.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labs/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +65,7 @@
         <option value="$PROJECT_DIR$/Lab4/Program.cs" />
         <option value="$PROJECT_DIR$/Laba5/Program.cs" />
         <option value="$PROJECT_DIR$/Lab6/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab5/Program.cs" />
       </list>
     </option>
   </component>
@@ -228,7 +221,7 @@
       <workItem from="1600196538908" duration="3288000" />
       <workItem from="1600805018190" duration="98000" />
       <workItem from="1600805146416" duration="105000" />
-      <workItem from="1600897423243" duration="305000" />
+      <workItem from="1600897423243" duration="942000" />
     </task>
     <task id="LOCAL-00001" summary="add the 10 variant">
       <created>1599418630343</created>
@@ -349,7 +342,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600897522190</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="rename Lab5">
+      <created>1600897748371</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600897748371</updated>
+    </task>
+    <task id="LOCAL-00019" summary="bag fixed">
+      <created>1600897890312</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600897890312</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,21 +428,22 @@
     <MESSAGE value="New Lab3" />
     <MESSAGE value="add comments" />
     <MESSAGE value="update" />
-    <MESSAGE value="bag fixed" />
     <MESSAGE value="New Lab4" />
     <MESSAGE value="New Lab5" />
     <MESSAGE value="New Lab6" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Lab6" />
+    <MESSAGE value="rename Lab5" />
+    <MESSAGE value="bag fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="bag fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Deployment" timestamp="1599414364845">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="76" key="#Deployment/0.0.1536.834@0.0.1536.834" timestamp="1599414364845" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1600897747517">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1600897889644">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1600897747517" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1600897889644" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1599515216282">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -540,10 +548,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="VCS.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1599515396579" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1600897750234">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1600897892412">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1600897750234" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1600897892412" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599418352667">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
