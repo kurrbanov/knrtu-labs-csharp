@@ -37,9 +37,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd81a081-fd5f-4dcf-b362-36155fa614f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labs/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cd81a081-fd5f-4dcf-b362-36155fa614f1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,8 +62,8 @@
         <option value="$PROJECT_DIR$/Lab3/Program.cs" />
         <option value="$PROJECT_DIR$/Lab4/Program.cs" />
         <option value="$PROJECT_DIR$/Laba5/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab6/Program.cs" />
         <option value="$PROJECT_DIR$/Lab5/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab6/Program.cs" />
       </list>
     </option>
   </component>
@@ -222,6 +220,7 @@
       <workItem from="1600805018190" duration="98000" />
       <workItem from="1600805146416" duration="105000" />
       <workItem from="1600897423243" duration="942000" />
+      <workItem from="1602522175230" duration="153000" />
     </task>
     <task id="LOCAL-00001" summary="add the 10 variant">
       <created>1599418630343</created>
@@ -356,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600897890312</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="New lab6">
+      <created>1602522259993</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1602522259993</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,17 +439,18 @@
     <MESSAGE value="New Lab6" />
     <MESSAGE value="rename Lab5" />
     <MESSAGE value="bag fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="bag fixed" />
+    <MESSAGE value="New lab6" />
+    <option name="LAST_COMMIT_MESSAGE" value="New lab6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Deployment" timestamp="1599414364845">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="76" key="#Deployment/0.0.1536.834@0.0.1536.834" timestamp="1599414364845" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1600897889644">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1602522259146">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1600897889644" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1602522259146" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1599515216282">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -548,10 +555,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="VCS.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1599515396579" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1600897892412">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1602522263655">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1600897892412" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1602522263655" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599418352667">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
