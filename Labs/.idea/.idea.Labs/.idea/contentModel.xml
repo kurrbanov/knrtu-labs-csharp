@@ -100,6 +100,18 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
+      <e p="Lab_10" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Lab_10.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Lab_10.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="Labs.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
