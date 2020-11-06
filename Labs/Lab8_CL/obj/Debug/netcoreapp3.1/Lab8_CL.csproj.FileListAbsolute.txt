@@ -1,0 +1,9 @@
+C:\Users\user\Documents\GitHub\knrtu-labs-csharp\Labs\Lab8_CL\bin\Debug\netcoreapp3.1\Lab8_CL.deps.json
+C:\Users\user\Documents\GitHub\knrtu-labs-csharp\Labs\Lab8_CL\bin\Debug\netcoreapp3.1\Lab8_CL.dll
+C:\Users\user\Documents\GitHub\knrtu-labs-csharp\Labs\Lab8_CL\bin\Debug\netcoreapp3.1\Lab8_CL.pdb
+C:\Users\user\Documents\GitHub\knrtu-labs-csharp\Labs\Lab8_CL\obj\Debug\netcoreapp3.1\Lab8_CL.csprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\knrtu-labs-csharp\Labs\Lab8_CL\obj\Debug\netcoreapp3.1\Lab8_CL.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\knrtu-labs-csharp\Labs\Lab8_CL\obj\Debug\netcoreapp3.1\Lab8_CL.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\knrtu-labs-csharp\Labs\Lab8_CL\obj\Debug\netcoreapp3.1\Lab8_CL.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\knrtu-labs-csharp\Labs\Lab8_CL\obj\Debug\netcoreapp3.1\Lab8_CL.dll
+C:\Users\user\Documents\GitHub\knrtu-labs-csharp\Labs\Lab8_CL\obj\Debug\netcoreapp3.1\Lab8_CL.pdb
