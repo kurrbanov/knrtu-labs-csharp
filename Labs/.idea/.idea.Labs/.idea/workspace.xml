@@ -11,6 +11,7 @@
     <projectFile>Lab9/Lab9.csproj</projectFile>
     <projectFile>Lab_10/Lab_10.csproj</projectFile>
     <projectFile>Lab8/Lab8.csproj</projectFile>
+    <projectFile>Lab_11/Lab_11.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -77,6 +78,7 @@
         <option value="$PROJECT_DIR$/Lab_10/Program.cs" />
         <option value="$PROJECT_DIR$/Lab8_CL/Class1.cs" />
         <option value="$PROJECT_DIR$/Lab8/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab_11/Program.cs" />
       </list>
     </option>
   </component>
@@ -282,6 +284,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Lab_12" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab_12/Lab_12.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Laba5" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -327,6 +347,7 @@
       <workItem from="1602522386456" duration="582000" />
       <workItem from="1604386507567" duration="1055000" />
       <workItem from="1604664256968" duration="523000" />
+      <workItem from="1605636163469" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="add the 10 variant">
       <created>1599418630343</created>
@@ -503,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604664718457</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="New Lab 11">
+      <created>1605636236896</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605636236896</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,17 +613,18 @@
     <MESSAGE value="New lab9" />
     <MESSAGE value="New lab 10" />
     <MESSAGE value="Add Lab 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lab 8" />
+    <MESSAGE value="New Lab 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Lab 11" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Deployment" timestamp="1599414364845">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="76" key="#Deployment/0.0.1536.834@0.0.1536.834" timestamp="1599414364845" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1604664717498">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1605636236045">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1604664717498" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1605636236045" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1599515216282">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -684,10 +713,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="504" y="272" key="LayersDialog/0.0.1536.834@0.0.1536.834" timestamp="1599417178749" />
-    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size" timestamp="1604664461206">
+    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size" timestamp="1605636193116">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size/0.0.1536.834@0.0.1536.834" timestamp="1604664461206" />
+    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size/0.0.1536.834@0.0.1536.834" timestamp="1605636193116" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1599418352255">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -700,10 +729,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="VCS.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1599515396579" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604664719952">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1605636239952">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604664719952" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1605636239952" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599418352667">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
