@@ -12,6 +12,7 @@
     <projectFile>Lab_10/Lab_10.csproj</projectFile>
     <projectFile>Lab8/Lab8.csproj</projectFile>
     <projectFile>Lab_11/Lab_11.csproj</projectFile>
+    <projectFile>Lab_12/Lab_12.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -52,6 +53,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/user/Documents/GitHub/knrtu-labs-csharp/Labs/Lab_12/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab_11/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab4/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab_10/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab2/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
@@ -79,6 +82,7 @@
         <option value="$PROJECT_DIR$/Lab8_CL/Class1.cs" />
         <option value="$PROJECT_DIR$/Lab8/Program.cs" />
         <option value="$PROJECT_DIR$/Lab_11/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab_12/Program.cs" />
       </list>
     </option>
   </component>
@@ -348,6 +352,7 @@
       <workItem from="1604386507567" duration="1055000" />
       <workItem from="1604664256968" duration="523000" />
       <workItem from="1605636163469" duration="121000" />
+      <workItem from="1606663877269" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="add the 10 variant">
       <created>1599418630343</created>
@@ -531,7 +536,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605636236896</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="New lab12">
+      <created>1606663962661</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606663962661</updated>
+    </task>
+    <task id="LOCAL-00028" summary="New lab 12">
+      <created>1606663992201</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1606663992201</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,17 +633,19 @@
     <MESSAGE value="New lab 10" />
     <MESSAGE value="Add Lab 8" />
     <MESSAGE value="New Lab 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Lab 11" />
+    <MESSAGE value="New lab12" />
+    <MESSAGE value="New lab 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="New lab 12" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Deployment" timestamp="1599414364845">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="76" key="#Deployment/0.0.1536.834@0.0.1536.834" timestamp="1599414364845" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1605636236045">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1606663991494">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1605636236045" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1606663991494" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1599515216282">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -713,10 +734,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="504" y="272" key="LayersDialog/0.0.1536.834@0.0.1536.834" timestamp="1599417178749" />
-    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size" timestamp="1605636193116">
+    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size" timestamp="1606663903932">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size/0.0.1536.834@0.0.1536.834" timestamp="1605636193116" />
+    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size/0.0.1536.834@0.0.1536.834" timestamp="1606663903932" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1599418352255">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -729,10 +750,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="VCS.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1599515396579" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1605636239952">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1606663994557">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1605636239952" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1606663994557" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599418352667">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

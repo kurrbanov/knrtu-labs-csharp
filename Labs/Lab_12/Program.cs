@@ -9,31 +9,46 @@ namespace Lab_12
         {
             Shop Auchan = new Shop();
             
-            Auchan.AddGroccery("Bread", 30);
-            Auchan.AddGroccery("Sugar", 20);
-            Auchan.AddGroccery("Banana", 80);
-         
-            Auchan.ShowInf();
+            Auchan.AddGroccery(new List<string> {"Bread", "Sugar", "Banana"}, new List<int> {30, 20, 80});
+            
+            Auchan.AddChemicals(new List<string> {"Powder", "Paper"}, new List<int> {500, 150});
+            
+            Auchan.AddDrinks(new List<string> {"Water"}, new List<int> {39});
+            
+            //Auchan.ShowInf();
+            
+            Shop Lenta = (Shop) Auchan.Clone();
+            
+            Lenta.SetProduct(1, 1, "Detergent", 800);
+            
+            Lenta.ShowInf();
         }
     }
-    
-        class Shop : ICloneable, IComparer, IComparable
+
+    class Shop : ICloneable, IComparer, IComparable, IEnumerable
     {
         protected List<Product> allProducts = new List<Product>();
 
-        public void AddGroccery(string name, int price)
+        public void AddGroccery(List<string> name, List<int> price)
         {
-            allProducts.Add(new Groccery(new List<string>() {name}, new List<int>() {price}));
+            allProducts.Add(new Groccery(name, price));
         }
 
-        public void AddChemicals(string name, int price)
+        public void AddChemicals(List<string> name, List<int> price)
         {
-            allProducts.Add(new Chemicals(new List<string>() {name}, new List<int>() {price}));
+            allProducts.Add(new Chemicals(name, price));
         }
 
-        public void AddDrinks(string name, int price)
+        public void AddDrinks(List<string> name, List<int> price)
         {
-            allProducts.Add(new Drinks(new List<string>() {name}, new List<int>() {price}));
+            allProducts.Add(new Drinks(name, price));
+        }
+
+        public void SetProduct(int idxProd, int idxType, string name, int price)
+        {
+            Product p = allProducts[idxProd];
+            p.Names[idxType] = name;
+            p.Prices[idxType] = price;
         }
 
         public void ShowInf()
@@ -45,17 +60,19 @@ namespace Lab_12
                 {
                     Console.Write($"{nam} ");
                 }
+
                 Console.WriteLine();
- 
+
                 Console.WriteLine("Prices: ");
                 foreach (var pri in s.Prices)
                 {
                     Console.Write($"{pri} ");
                 }
+
                 Console.WriteLine('\n');
             }
         }
-        
+
         public object DeepClone()
         {
             return new Shop {allProducts = this.allProducts};
@@ -70,7 +87,7 @@ namespace Lab_12
         {
             Product x = obj1 as Product;
             Product y = obj2 as Product;
-            
+
             if (x.Names.Count > y.Names.Count) return 1;
             else if (x.Names.Count < y.Names.Count) return -1;
             else return 0;
@@ -82,8 +99,48 @@ namespace Lab_12
             return p.Names.Count.CompareTo(p.Names.Count);
         }
         
+        public IEnumerator GetEnumerator()
+        {
+            return new ShopEnum(allProducts);
+        }
     }
 
+    class ShopEnum : IEnumerator
+    {
+        private List<Product> names;
+        private int idx = -1;
+
+        public ShopEnum(List<Product> names)
+        {
+            this.names = names;
+        }
+
+        public object Current
+        {
+            get
+            {
+                if (idx == -1) return names[0];
+                else if (idx >= names.Count) return names[names.Count - 1];
+                return names[idx];
+            }
+        }
+
+        public bool MoveNext()
+        {
+            if (idx < names.Count - 1)
+            {
+                idx++;
+                return true;
+            }
+            else return false;
+        }
+
+        public void Reset()
+        {
+            idx = -1;
+        }
+    }
+    
     abstract class Product
     {
         private List<string> _names; // List of product names
@@ -133,7 +190,7 @@ namespace Lab_12
             names.Add("No name");
             prices.Add(0);
         }
-        
+
         public Groccery(List<string> names, List<int> prices) : base(names, prices)
         {
         }
@@ -195,19 +252,19 @@ namespace Lab_12
         {
             names[idx] = name;
         }
-        
+
         protected override void changePrice(int price, int idx)
         {
             prices[idx] = price;
         }
     }
-    
+
     interface ICloneable
     {
         object DeepClone();
         object Clone();
     }
-    
+
     interface IComparable
     {
         int CompareTo(object obj);
@@ -223,5 +280,10 @@ namespace Lab_12
         bool MoveNext();
         object Current { get; }
         void Reset();
+    }
+    
+    interface IEnumerable
+    {
+        IEnumerator GetEnumerator();
     }
 }
