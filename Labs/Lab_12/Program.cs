@@ -7,7 +7,13 @@ namespace Lab_12
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Shop Auchan = new Shop();
+            
+            Auchan.AddGroccery("Bread", 30);
+            Auchan.AddGroccery("Sugar", 20);
+            Auchan.AddGroccery("Banana", 80);
+         
+            Auchan.ShowInf();
         }
     }
     
