@@ -19,15 +19,22 @@ namespace Lab_12
             
             Shop Lenta = (Shop) Auchan.Clone();
             
-            Lenta.SetProduct(1, 1, "Detergent", 800);
+            Lenta.SetProduct(2, 1, "Detergent", 800);
             
             Lenta.ShowInf();
+            Console.WriteLine('\n');
+            
+            Lenta.allProducts.Sort();
+            Console.WriteLine();
+
+            Auchan.allProducts.Sort(new ProdCmp());
+            Auchan.ShowInf();
         }
     }
 
-    class Shop : ICloneable, IComparer, IComparable, IEnumerable
+    class Shop : ICloneable, IEnumerable
     {
-        protected List<Product> allProducts = new List<Product>();
+        public List<Product> allProducts = new List<Product>();
 
         public void AddGroccery(List<string> name, List<int> price)
         {
@@ -83,22 +90,6 @@ namespace Lab_12
             return this.MemberwiseClone();
         }
 
-        public int Compare(object obj1, object obj2)
-        {
-            Product x = obj1 as Product;
-            Product y = obj2 as Product;
-
-            if (x.Names.Count > y.Names.Count) return 1;
-            else if (x.Names.Count < y.Names.Count) return -1;
-            else return 0;
-        }
-
-        public int CompareTo(object obj)
-        {
-            Product p = obj as Product;
-            return p.Names.Count.CompareTo(p.Names.Count);
-        }
-        
         public IEnumerator GetEnumerator()
         {
             return new ShopEnum(allProducts);
@@ -141,7 +132,7 @@ namespace Lab_12
         }
     }
     
-    abstract class Product
+    abstract class Product : IComparable, IComparable<Product>
     {
         private List<string> _names; // List of product names
         private List<int> _prices; // List of product prices
@@ -174,12 +165,44 @@ namespace Lab_12
             Names = names;
             Prices = prices;
         }
+        
+        public int CompareTo(object obj)
+        {
+            Product p = obj as Product;
+            return this.Names.Count.CompareTo(p.Names.Count);
+        }
+
+        public int CompareTo(Product obj)
+        {
+            return this.Names.Count.CompareTo(obj.Names.Count);
+        }
 
         protected abstract void changePrice(int price, int idx); // change price by List index
         protected abstract void changeName(string name, int idx); // change name by List index
     }
 
 
+    class ProdCmp : IComparer<Product>, IComparer
+    {
+        public int Compare(Product x, Product y)
+        {
+            if (x.Names.Count > y.Names.Count) return 1;
+            if (x.Names.Count < y.Names.Count) return -1;
+            else return 0;
+        }
+
+        public int Compare(object obj1, object obj2)
+        {
+            Product x = obj1 as Product;
+            Product y = obj2 as Product;
+
+            if (x.Names.Count > y.Names.Count) return 1;
+            if (x.Names.Count < y.Names.Count) return -1;
+            else return 0;   
+        }
+    }
+    
+    
     class Groccery : Product
     {
         private List<string> names;
