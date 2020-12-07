@@ -13,6 +13,8 @@
     <projectFile>Lab8/Lab8.csproj</projectFile>
     <projectFile>Lab_11/Lab_11.csproj</projectFile>
     <projectFile>Lab_12/Lab_12.csproj</projectFile>
+    <projectFile>Lab_13_Task1/Lab_13_Task1.csproj</projectFile>
+    <projectFile>Lab_13_Task2/Lab_13_Task2.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -43,7 +45,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd81a081-fd5f-4dcf-b362-36155fa614f1" name="Default Changelist" comment="" />
+    <list default="true" id="cd81a081-fd5f-4dcf-b362-36155fa614f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Labs.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Labs.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +57,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Lab_13_Task1/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab_11/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab4/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab_10/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
@@ -82,6 +87,8 @@
         <option value="$PROJECT_DIR$/Lab8/Program.cs" />
         <option value="$PROJECT_DIR$/Lab_11/Program.cs" />
         <option value="$PROJECT_DIR$/Lab_12/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab_13_Task1/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab_13_Task2/Program.cs" />
       </list>
     </option>
   </component>
@@ -323,6 +330,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Lab_13_Task2" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab_13_Task2/Lab_13_Task2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Laba5" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -372,6 +397,7 @@
       <workItem from="1606663877269" duration="719000" />
       <workItem from="1606682705196" duration="223000" />
       <workItem from="1606840712126" duration="760000" />
+      <workItem from="1607375522466" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary="add the 10 variant">
       <created>1599418630343</created>
@@ -583,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606845261780</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="New task1 in lab13">
+      <created>1607375786557</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1607375786557</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,7 +676,6 @@
   <component name="VcsManagerConfiguration">
     <option name="MAXIMUM_HISTORY_ROWS" value="2000" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="all task2" />
     <MESSAGE value="New Lab2" />
     <MESSAGE value="Add Lab2" />
     <MESSAGE value="Brilliant idea for 3 variant" />
@@ -668,17 +700,18 @@
     <MESSAGE value="New lab 12" />
     <MESSAGE value="New Lab 12" />
     <MESSAGE value="Lab12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab12" />
+    <MESSAGE value="New task1 in lab13" />
+    <option name="LAST_COMMIT_MESSAGE" value="New task1 in lab13" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Deployment" timestamp="1599414364845">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="76" key="#Deployment/0.0.1536.834@0.0.1536.834" timestamp="1599414364845" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1606845261010">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1607375785667">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1606845261010" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1607375785667" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1599515216282">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -767,10 +800,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="504" y="272" key="LayersDialog/0.0.1536.834@0.0.1536.834" timestamp="1599417178749" />
-    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size" timestamp="1606663903932">
+    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size" timestamp="1607375809097">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size/0.0.1536.834@0.0.1536.834" timestamp="1606663903932" />
+    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size/0.0.1536.834@0.0.1536.834" timestamp="1607375809097" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1599418352255">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -783,10 +816,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="VCS.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1599515396579" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1606845264573">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1607375788659">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1606845264573" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1607375788659" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599418352667">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
