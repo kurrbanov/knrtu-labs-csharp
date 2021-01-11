@@ -46,7 +46,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd81a081-fd5f-4dcf-b362-36155fa614f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Labs.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Labs.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_12/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_12/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,18 +58,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Lab_13_Task1/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab_11/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab4/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab_10/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab2/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab5/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab3/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab9/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab5/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab7/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab6/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab8/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab_13_Task1/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab_13_Task2/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab_11/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab4/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab2/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab3/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -86,9 +88,9 @@
         <option value="$PROJECT_DIR$/Lab8_CL/Class1.cs" />
         <option value="$PROJECT_DIR$/Lab8/Program.cs" />
         <option value="$PROJECT_DIR$/Lab_11/Program.cs" />
-        <option value="$PROJECT_DIR$/Lab_12/Program.cs" />
         <option value="$PROJECT_DIR$/Lab_13_Task1/Program.cs" />
         <option value="$PROJECT_DIR$/Lab_13_Task2/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab_12/Program.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +115,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected=".NET Project.Lab2">
+  <component name="RunManager" selected=".NET Project.Lab_12">
     <configuration name="Lab1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -397,7 +399,8 @@
       <workItem from="1606663877269" duration="719000" />
       <workItem from="1606682705196" duration="223000" />
       <workItem from="1606840712126" duration="760000" />
-      <workItem from="1607375522466" duration="290000" />
+      <workItem from="1607375522466" duration="457000" />
+      <workItem from="1610371279907" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="add the 10 variant">
       <created>1599418630343</created>
@@ -616,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607375786557</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="New task2 in lab13">
+      <created>1607375968880</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607375968880</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,7 +686,6 @@
   <component name="VcsManagerConfiguration">
     <option name="MAXIMUM_HISTORY_ROWS" value="2000" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="New Lab2" />
     <MESSAGE value="Add Lab2" />
     <MESSAGE value="Brilliant idea for 3 variant" />
     <MESSAGE value="done Task2" />
@@ -701,17 +710,18 @@
     <MESSAGE value="New Lab 12" />
     <MESSAGE value="Lab12" />
     <MESSAGE value="New task1 in lab13" />
-    <option name="LAST_COMMIT_MESSAGE" value="New task1 in lab13" />
+    <MESSAGE value="New task2 in lab13" />
+    <option name="LAST_COMMIT_MESSAGE" value="New task2 in lab13" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Deployment" timestamp="1599414364845">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="76" key="#Deployment/0.0.1536.834@0.0.1536.834" timestamp="1599414364845" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1607375785667">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1607375968242">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1607375785667" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1607375968242" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1599515216282">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -816,10 +826,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="VCS.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1599515396579" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1607375788659">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1607375970684">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1607375788659" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1607375970684" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599418352667">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
