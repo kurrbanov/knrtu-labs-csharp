@@ -12,6 +12,11 @@
 .idea/**/dictionaries
 .idea/**/shelf
 
+Labs/.idea/
+Labs/*/bin/
+Labs/*/obj/
+Labs/*/*.csproj
+
 # Generated files
 .idea/**/contentModel.xml
 
